@@ -11,15 +11,11 @@
 display.setStatusBar(display.HiddenStatusBar)
 -------------------
 
---Backround Image and background colour but the background colour has a low opacity
+--Backround Image 
 -----------------
-
-display.setDefault( "background", 255, 0, 0 )
-
 local backgroundimage = display.newImageRect( "assets/background.jpg", 499, 795)
 backgroundimage.x = display.contentCenterX
 backgroundimage.y = display.contentCenterY
-
 -----------------
 
 --Title
